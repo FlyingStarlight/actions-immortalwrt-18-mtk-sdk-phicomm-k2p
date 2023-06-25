@@ -15,10 +15,10 @@
 
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git omcproxy https://github.com/smsmail2022/luci-app-omcproxy' >>feeds.conf.default
+echo 'src-git luci-app-omcproxy https://github.com/smsmail2022/luci-app-omcproxy' >>feeds.conf.default
 echo 'src-git iptvhelper https://github.com/riverscn/openwrt-iptvhelper' >>feeds.conf.default
 
 # echo '添加omcproxy iptvhelper 软件源'
 #git clone -b https://github.com/smsmail2022/luci-app-omcproxy package/luci-app-omcproxy
 git clone -b 18.06 https://github.com/riverscn/luci-app-omcproxy package/luci-app-omcproxy
-#git clone -b https://github.com/riverscn/openwrt-iptvhelper package/luci-app-iptvhelper
+git clone -b https://github.com/riverscn/openwrt-iptvhelper package/luci-app-iptvhelper
