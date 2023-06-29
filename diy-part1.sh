@@ -18,6 +18,6 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # echo '添加omcproxy iptvhelper软件源'
-git clone https://github.com/smsmail2022/luci-app-omcproxy luci-app-omcproxy
+#git clone https://github.com/smsmail2022/luci-app-omcproxy luci-app-omcproxy
 #git clone https://github.com/riverscn/luci-app-omcproxy.git package/luci-app-omcproxy
 #git clone -b https://github.com/riverscn/openwrt-iptvhelper.git package/luci-app-iptvhelper
